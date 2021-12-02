@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+   .parent{display: flex;} /* Вказання типу контейнера */
+   .box {  
+    width: 100px;  
+    height: 150px;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;  
+    margin-right: 10px;   /* Відступ між елементами */
+    border-left: 10px dotted #D0D0FF;   /* Визначення border */
+    background-color: #eeeff2;  /*фоновий колір */
+   
+    
+}
+.right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box p{
+    margin-left: 10px; /* Відступ тексту */
+    font-size: 40px;   /* Розмір тексту  */
+}
+    </style>
+
+<div class = "parent">
+<div class="box"><p >A</p></div>
+<div class="box"><p>B</p></div>
+<div class="box"><p>C</p></div>
+<div class="box"><p>D</p></div>
+<div class="box"><p>E</p></div>
+<div class="box right"><p>F</p></div>
+</div>
+
+</body>
+</html>

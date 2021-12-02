@@ -1,0 +1,118 @@
+                           
+
+
+ 
+
+hr{
+    border: none;                    /* Тип границі none щоб не було границі   */
+    border-top:dotted #28df55 ;    /* Вибераємо тип і колір самої лінії */
+    border-width: 10px;              /* Розмір елементу   */ 
+    width: 10%;                       /* Скільки ширини екрану буде займати елемент */
+    }
+.text {
+    color: #000000;
+    font-family: 'Gilroy Ultra Light';
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    text-align: center;
+    font: bold;
+}
+
+
+img{
+    height: 300px;
+    width: 220px;
+    border-radius: 10%   
+}
+.parent{display: flex;
+    justify-content: space-between;}
+.box1 {  /* Створюєм бокс */
+    width: 600px;  /* Задаємо його парпаметри: Ширина, висота, колір*/
+    height: 800px;
+    /*background-color: rgb(158 94 39);*/
+    background: linear-gradient(-60deg, #36bff1, #0c4a45);
+    padding: 10px;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 5px 5px 50px  1px white;
+    
+
+    
+    
+}
+.box2 {  /* Створюєм бокс */
+    width: 300;  /* Задаємо його парпаметри: Ширина, висота, колір*/
+    height: 300px; ;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+    
+body {
+    background:url(../img/thumb_l_nus_10531.jpg) ;
+    
+    
+}
+.box3 {
+    width: 220px;
+    height: 160px;
+    background-color: #f2f2f2;
+    border:5px, red ;
+    margin-top: 0px;
+    border-radius: 5%;
+    margin-left: 15px;
+}
+p {
+    font-size: 20px;
+    font-weight:bold;
+    height: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right{
+    margin-left: 360px;
+    margin-top: -180px;
+}
+.lin{
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+.button1{
+    width: 90px;
+    height: 30px;
+   
+    border-radius: 10%;
+}
+.button2{
+    width: 90px;
+    height: 30px;
+    
+    border-radius: 10%;
+}
+.button3{
+    width: 90px;
+    height: 30px;
+    
+    border-radius: 10%;
+}
+.bottunposition{
+    display: flex;
+    flex-basis: auto;
+    margin-top: 220px;
+    margin-left: 10px; 
+}
+
+
+
+ 
+
+
+
+
